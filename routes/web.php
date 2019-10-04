@@ -14,4 +14,4 @@
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });       
- $router->get("/lga", 'AppController@getLGA');
+ $router->get("/api/local-governments", 'AppController@getLGA');
